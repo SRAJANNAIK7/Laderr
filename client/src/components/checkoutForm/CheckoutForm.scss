@@ -1,0 +1,37 @@
+#submit {
+  background-color: #4285f4; // Set the background color
+  color: #fff; // Set the text color
+  border: none; // Remove the border
+  padding: 10px 20px; // Add padding to the button
+  cursor: pointer; // Change the cursor on hover
+  opacity: 0.8; // Set the initial opacity
+  margin-top: 10px;
+  border-radius: 2px;
+
+  // Disable the button styles
+  &:disabled {
+    opacity: 0.5; // Reduce the opacity when disabled
+    cursor: not-allowed; // Change the cursor when disabled
+  }
+
+  // Style the spinner
+  #spinner {
+    /* Add styles for the spinner, such as size, color, etc. */
+  }
+
+  // Style the button text
+  #button-text {
+    // Add any styles for the button text, such as font size, alignment, etc.
+  }
+
+  // Add hover styles
+  &:hover {
+    opacity: 1; // Increase the opacity on hover
+    /* Add any additional hover styles */
+  }
+
+  // Add focus styles
+  &:focus {
+    /* Add any focus styles */
+  }
+}
